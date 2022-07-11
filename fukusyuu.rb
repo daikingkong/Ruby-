@@ -1,3 +1,25 @@
+# 以下はRubyのFizzBuzz問題
+
+# def fizz_buzz(i)
+#   if i % 15 == 0
+#     puts "FizzBuzz"
+#   elsif i % 5 == 0
+#     puts "Buzz"
+#   elsif i % 3 == 0
+#     puts "Fizz"
+#   else
+#     puts "#{i}"
+#   end
+# end
+
+# puts "数字を入力してください"
+
+# input = gets.to_i
+
+# puts "結果は…"
+# puts fizz_buzz(input)
+
+
 # 以下Rubyの11章演習問題
 
 # class Car
