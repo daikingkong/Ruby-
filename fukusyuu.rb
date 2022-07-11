@@ -1,40 +1,52 @@
-puts "計算をはじめます"
-puts "何回計算を繰り返しますか？"
+# 以下Rubyの9章演習問題
 
-count = gets.to_i
-number = 1
+# class Car
+#   def self.turn(direction)
+#     puts "#{direction}に曲がります"
+#   end
+# end
 
-while number <= count do
+# Car.turn("右")
 
-  puts "#{number}回目の計算"
-  puts "2つの値を入力してください"
+# 以下Rubyの6章演習問
 
-  a = gets.to_i
-  b = gets.to_i
+# puts "計算をはじめます"
+# puts "何回計算を繰り返しますか？"
 
-  puts "a=#{a}"
-  puts "b=#{b}"
+# count = gets.to_i
+# number = 1
 
-  puts "計算結果を出力します"
+# while number <= count do
 
-  puts "a+b=#{a+b}"
-  puts "a-b=#{a-b}"
-  puts "a*b=#{a*b}"
-  puts "a/b=#{a/b}"
+#   puts "#{number}回目の計算"
+#   puts "2つの値を入力してください"
 
-  number += 1
+#   a = gets.to_i
+#   b = gets.to_i
 
-end
+#   puts "a=#{a}"
+#   puts "b=#{b}"
 
-puts "計算を終了します"
+#   puts "計算結果を出力します"
 
-# [ruby] 6-1
-puts "計算をはじめます"
-puts "2つの値を入力してください"
+#   puts "a+b=#{a+b}"
+#   puts "a-b=#{a-b}"
+#   puts "a*b=#{a*b}"
+#   puts "a/b=#{a/b}"
 
-a = gets
-b = gets
+#   number += 1
 
-puts "計算結果を出力します"
-puts "a*b=#{(a.to_i*b.to_i)}"
-puts "計算を終了します"
+# end
+
+# puts "計算を終了します"
+
+# # [ruby] 6-1
+# puts "計算をはじめます"
+# puts "2つの値を入力してください"
+
+# a = gets
+# b = gets
+
+# puts "計算結果を出力します"
+# puts "a*b=#{(a.to_i*b.to_i)}"
+# puts "計算を終了します"
