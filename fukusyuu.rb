@@ -1,3 +1,19 @@
+
+#以下Rubyの10章演習問題 
+
+# class Car
+
+  def run(distance)
+    puts "車で#{distance}キロ走ります。"
+  end
+end
+
+class Bus<Car
+end
+
+bus = Bus.new
+bus.run(5)
+
 # 以下Rubyの9章演習問題
 
 # class Car
