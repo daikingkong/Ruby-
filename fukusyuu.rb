@@ -1,3 +1,31 @@
+# 以下はSlackのRuby確認問題
+
+# nums = [1, 2, 3, 4, 5]を用いて3回目まで1.2.3.4.5を出力せよ
+
+# count = 1
+
+# while count <= 3 do
+# puts "#{count}回目の出力です"
+#   for  i in nums do
+#   puts i
+#   end
+#   count += 1
+# end
+
+# 出力：二郎さんの体重は70㎏です を出力せよ
+
+# user = {:name=>"二郎", :height=>180, :weight=>70}
+
+# puts "#{user[:name]}さんの体重は#{user[:weight]}㎏です"
+
+# hoge = "123"を用いて123444にせよ
+
+# hoge = "123"
+
+# fuga = hoge+hoge
+# i = hoge.reverse
+# puts "#{(fuga.to_i+i.to_i)}"
+
 # 以下はRubyのFizzBuzz問題
 
 # def fizz_buzz(i)
