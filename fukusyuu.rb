@@ -1,18 +1,35 @@
+# 以下Rubyの11章演習問題
 
-#以下Rubyの10章演習問題 
+# class Car
+#   def run(distance)
+#     puts "車で#{distance}キロ走ります。"
+#   end
+# end
+
+# class Truck<Car
+#   def run(distance)
+#     super
+#     puts "大きな荷物を乗せて走ります"
+#   end
+# end
+
+# truck = Truck.new
+# truck.run(5)
+
+#以下Rubyの10章演習問題
 
 # class Car
 
-  def run(distance)
-    puts "車で#{distance}キロ走ります。"
-  end
-end
+#   def run(distance)
+#     puts "車で#{distance}キロ走ります。"
+#   end
+# end
 
-class Bus<Car
-end
+# class Bus<Car
+# end
 
-bus = Bus.new
-bus.run(5)
+# bus = Bus.new
+# bus.run(5)
 
 # 以下Rubyの9章演習問題
 
